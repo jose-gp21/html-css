@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to right,
+    rgba(87, 90, 75, 1),
+    rgba(207, 207, 234, 1));
+}
+
+main{
+    background-color: rgba(87, 90, 75, 1);
+    width: 600px;
+    box-shadow: 5px 5px 15px rgb(28, 29, 24);
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+}
+h1{
+    color: rgba(207, 207, 234, 1);
+    text-align: center;
+}
+h2{
+    color: rgba(207, 207, 234, 1);
+}
+p{
+    color: black;
+}
+
+
+/*
+$lavender-web: rgba(207, 207, 234, 1);
+rgba(168, 155, 157, 1)
+rgba(129, 108, 97, 1)
+rgba(87, 90, 75, 1)
+rgba(42, 44, 36, 1)

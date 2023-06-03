@@ -1,0 +1,12 @@
+body{
+    text-align: center;
+    justify-content: center;
+    background-color: #404245;
+}
+h1{
+    color: whitesmoke;
+}
+img {
+    size: 50px;
+    padding: 0.4%;
+}
