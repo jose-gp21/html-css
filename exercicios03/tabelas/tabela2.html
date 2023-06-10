@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        table {
+            width: 400px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        caption {
+            background-color: beige;
+            padding: 20px;
+        }
+
+        td,
+        th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead,
+        tfoot {
+            background-color: rgb(87, 87, 87);
+            color: azure;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: rgb(87, 87, 87);
+        }
+
+        tbody>tr:nth-child(odd) {
+            background-color: white;
+        }
+
+        tbody>tr:nth-child(even) {
+            background-color: lightgray;
+        }
+
+        td.num {
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Uso de Tabelas Grandes</h1>
+    <table>
+        <caption>
+            População das Unidades Fedarativas
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">59 000 000</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 000 000</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num"> </td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">59 000 000</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 000 000</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">59 000 000</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 000 000</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">59 000 000</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 000 000</td>
+                <tr>
+                    <td>São Paulo</td>
+                    <td class="num">59 000 000</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td class="num">21 000 000</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="num"> </td>
+                </tr>
+                <tr>
+                    <td>São Paulo</td>
+                    <td class="num">59 000 000</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td class="num">21 000 000</td>
+                </tr>
+                <tr>
+                    <td>São Paulo</td>
+                    <td class="num">59 000 000</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td class="num">21 000 000</td>
+                </tr>
+                <tr>
+                    <td>São Paulo</td>
+                    <td class="num">59 000 000</td>
+                </tr>
+                <tr>
+                    <td>São Paulo</td>
+                    <td class="num">59 000 000</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td class="num">21 000 000</td>
+                </tr>
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td class="num"> </td>
+                </tr>
+                <tr>
+                    <td>São Paulo</td>
+                    <td class="num">59 000 000</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td class="num">21 000 000</td>
+                </tr>
+                <tr>
+                    <td>São Paulo</td>
+                    <td class="num">59 000 000</td>
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td class="num">21 000 000</td>
+                </tr>
+                <tr>
+                    <td>São Paulo</td>
+                    <td class="num">59 000 000</td>
+                </tr>
+
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td class="num"><strong>80 000 000</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto beatae assumenda consequatur error, illum, ullam quae laudantium, voluptatum culpa temporibus mollitia dicta fuga incidunt sed. Sint doloremque vero nisi a. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit illo ab odit officia aliquam at totam ad doloremque corporis omnis, eveniet, necessitatibus repellat voluptatem veritatis dolores nostrum id sunt eius! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet unde odit voluptatem aliquam eius, consequatur aliquid fugit, nesciunt quia maiores voluptatibus sint aperiam nihil quod asperiores. Assumenda exercitationem veniam ad? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatum deleniti fugit beatae enim. Sunt dolores ratione id. Id tenetur eum accusamus repellendus similique placeat et fuga quo nobis tempore.
+    </p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto beatae assumenda consequatur error, illum, ullam quae laudantium, voluptatum culpa temporibus mollitia dicta fuga incidunt sed. Sint doloremque vero nisi a. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit illo ab odit officia aliquam at totam ad doloremque corporis omnis, eveniet, necessitatibus repellat voluptatem veritatis dolores nostrum id sunt eius! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet unde odit voluptatem aliquam eius, consequatur aliquid fugit, nesciunt quia maiores voluptatibus sint aperiam nihil quod asperiores. Assumenda exercitationem veniam ad? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatum deleniti fugit beatae enim. Sunt dolores ratione id. Id tenetur eum accusamus repellendus similique placeat et fuga quo nobis tempore.
+    </p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto beatae assumenda consequatur error, illum, ullam quae laudantium, voluptatum culpa temporibus mollitia dicta fuga incidunt sed. Sint doloremque vero nisi a. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit illo ab odit officia aliquam at totam ad doloremque corporis omnis, eveniet, necessitatibus repellat voluptatem veritatis dolores nostrum id sunt eius! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet unde odit voluptatem aliquam eius, consequatur aliquid fugit, nesciunt quia maiores voluptatibus sint aperiam nihil quod asperiores. Assumenda exercitationem veniam ad? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatum deleniti fugit beatae enim. Sunt dolores ratione id. Id tenetur eum accusamus repellendus similique placeat et fuga quo nobis tempore.
+    </p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto beatae assumenda consequatur error, illum, ullam quae laudantium, voluptatum culpa temporibus mollitia dicta fuga incidunt sed. Sint doloremque vero nisi a. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit illo ab odit officia aliquam at totam ad doloremque corporis omnis, eveniet, necessitatibus repellat voluptatem veritatis dolores nostrum id sunt eius! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet unde odit voluptatem aliquam eius, consequatur aliquid fugit, nesciunt quia maiores voluptatibus sint aperiam nihil quod asperiores. Assumenda exercitationem veniam ad? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatum deleniti fugit beatae enim. Sunt dolores ratione id. Id tenetur eum accusamus repellendus similique placeat et fuga quo nobis tempore.
+    </p>
+    v
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto beatae assumenda consequatur error, illum, ullam quae laudantium, voluptatum culpa temporibus mollitia dicta fuga incidunt sed. Sint doloremque vero nisi a. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit illo ab odit officia aliquam at totam ad doloremque corporis omnis, eveniet, necessitatibus repellat voluptatem veritatis dolores nostrum id sunt eius! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet unde odit voluptatem aliquam eius, consequatur aliquid fugit, nesciunt quia maiores voluptatibus sint aperiam nihil quod asperiores. Assumenda exercitationem veniam ad? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatum deleniti fugit beatae enim. Sunt dolores ratione id. Id tenetur eum accusamus repellendus similique placeat et fuga quo nobis tempore.
+    </p>
+    
+</body>
+
+</html>
