@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        bodY {
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        iframe.tela {
+            max-width: 95vh;
+            width: 100%;
+            height: 400px;
+            background-color: transparent;
+            border: 1px solid black;
+        }
+
+        ul {
+            display: flex;
+            text-align: center;
+
+        }
+
+        ul>li>a {
+            text-decoration: none;
+        }
+
+        ul>li {
+            list-style: none;
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Faça uma escolha</h1>
+
+    <ul>
+        <li><a href="pag1.html" target="frame">Pag 1</a></li>
+        <li><a href="pag2.html" target="frame">Pag 2</a></li>
+        <li><a href="pag3.html" target="frame">Pag 3</a></li>
+        <li><a href="login.html" target="frame">Cadastro</a></li>
+        <li><a href="pag5.html" target="frame">Javascript</a></li>
+    </ul>
+
+    <iframe class="tela" name="frame" srcdoc="<h1>Este é um doc inicial</h1>" frameborder="0" sandbox="allow-same-origin allow-forms allow-scripts" referrerpolicy="no-referrer"></iframe>
+</body>
+
+</html>
