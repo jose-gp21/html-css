@@ -1,11 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Senhas</title>
+    <style>
+        *{
+            margin:0px;
+            padding: 0px;
+        }
+        body{
+            background-color: black;
+            height: 100vh;
+            text-align: center;
+            position: relative;
+        }
+        div{
+            background-color: rgb(255, 255, 255);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            padding: 15px;
+            border-radius: 20px;
+        }
+        p{
+            padding: 15px;
+        }
+        
+    </style>
 </head>
 <body>
-    
+    <h1>Utilizando senhas e text</h1>
+    <div>
+        <form action="cadastro.php" method="post" autocomplete="on">
+            <p>
+                <label for="inome">Nome: <input type="text" name="nome" id="inome" autocomplete="username" minlength="3" maxlength="30" required size="20" placeholder="  Insira seu nome completo  "></label>
+            </p>
+            <p>
+                <label for="iemail">E-mail: <input type="email" name="email" id="iemail" required placeholder="  Insira seu e-mail  " size="12"></label>
+            </p>
+            <p>
+                <label for="isenha">Senha: <input type="password" name="senhas" id="isenha" autocomplete="current-password" minlength="8" maxlength="20" required placeholder="  Insira sua senha  " size="12"></label>
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </form>
+    </div>
 </body>
 </html>
