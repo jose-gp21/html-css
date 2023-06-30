@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1em;
+}
+header{
+    background-image: linear-gradient(to right, gray, white);
+    display: flex;
+    justify-content: space-between;
+}
+header >  h1{
+    padding: 20px;
+    
+}
+
+menu{
+    
+    width: 400px;
+}
+
+ul:first-child {
+    margin-left: 0;
+}
+  
+ul:last-child {
+    margin-left: auto;
+}
+  
+menu ul{
+    display: flex;
+    list-style-type: none;
+    background-image: linear-gradient(to right, #DADADA, gray);
+    padding: 20px;
+}
+menu li{
+    display: inline-block;
+    padding: 10px;
+}
+article{
+    width: 600px;
+    display: block;
+    margin: auto;
+}

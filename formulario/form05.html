@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        label{
+            display: block;
+            margin: 15px 0px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Form</h1>
+    <form action="cadastro.php" method="post">
+        <fieldset>
+            <legend>Login</legend>
+            <label for="inome">Nome: <input type="text" name="Nome" id="inome"></label>
+        </fieldset>
+        <fieldset>
+            <legend>Sexo</legend>
+            <div>
+                <label for="imas"><input type="radio" name="sex" id="imas"> Masculino</label>
+                <label for="ifem"><input type="radio" name="sex" id="ifem"> Feminino</label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+            <div class="esport">
+                <label for="ibasq"><input type="checkbox" name="basq" id="ibasq"> Basquete</label>
+                <label for="ifut"><input type="checkbox" name="fut" id="ifut"> Futebol</label>
+                <label for="inat"><input type="checkbox" name="nat" id="inat"> Natação</label>
+                <label for="iten"><input type="checkbox" name="ten" id="iten"> Tênis</label>
+                <label for="ivol"><input type="checkbox" name="vol" id="ivol"> Vôlei</label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Cores</legend>
+            <label for="icor">Cor: <input type="color" name="Cores" id="icor" value="#221"></label>
+        </fieldset>
+        <fieldset>
+            <legend>Barrinha de range</legend>
+            <input type="range" name="range" id="range" >
+        </fieldset>
+        <fieldset>
+            <legend>Anexo</legend>
+            <label for="iarquivo">Insira um arquivo aqui: <input type="file" name="arquivo" id="iarquivo"></label>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
