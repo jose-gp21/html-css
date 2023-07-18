@@ -1,0 +1,31 @@
+/*Declarações gerais*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+h1{
+    color: aliceblue;
+    text-shadow: 2px 2px 0px rgb(48, 48, 48);
+    padding: 10px;
+}
+
+/*Declarações de retrato*/
+@media screen and (orientation: portrait){
+    body{
+        background-color: grey;
+    }
+}
+
+/*Declarações de paisagem*/
+@media screen and (orientation: landscape){
+    body{
+        background-color: blueviolet;
+    }
+}
