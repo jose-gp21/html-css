@@ -1,1 +1,11 @@
 @charset "UTF-8";
+
+body, html{
+    background-color: rgb(26, 32, 11);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+h1{
+    color: azure;
+    text-align: center;
+}
