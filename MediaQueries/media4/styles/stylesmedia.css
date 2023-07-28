@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+/*Typical Devices Breakpoints: */
+/* Extra small devices (phones, 600px and down) */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media screen and (min-width: 768px) and (max-width: 992px){
+    body{
+        background-image: url("../imagens/back-tablet.jpg");
+    }
+
+    img#phone{
+        display: none;
+        margin: auto;
+    }
+    img#tablet{
+        margin: auto;
+        display: block;
+    }
+    img#print{
+        margin: auto;
+        display: none;
+    }
+    img#pc{
+        margin: auto;
+        display: none;
+    }
+    img#tv{
+        margin: auto;
+        display: none;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    body{
+        background-image: url("../imagens/back-pc.jpg");
+    }
+    img#phone{
+        display: none;
+        margin: auto;
+    }
+    img#tablet{
+        margin: auto;
+        display: none;
+    }
+    img#print{
+        margin: auto;
+        display: none;
+    }
+    img#pc{
+        margin: auto;
+        display: block;
+    }
+    img#tv{
+        margin: auto;
+        display: none;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+    body{
+        background-image: url("../imagens/back-tv.jpg");
+    }
+    img#phone{
+        display: none;
+        margin: auto;
+    }
+    img#tablet{
+        margin: auto;
+        display: none;
+    }
+    img#print{
+        margin: auto;
+        display: none;
+    }
+    img#pc{
+        margin: auto;
+        display: none;
+    }
+    img#tv{
+        margin: auto;
+        display: block;
+    }
+}
+
+@media print{
+    body{
+        background-image: url("../imagens/back-print.jpg");
+    }
+    h1{
+        font-family: monospace;
+        color: black;
+        text-shadow: none;
+    }
+    main{
+        width: 400px;
+        height: 400px;
+        border: 2px solid black;
+        
+    }
+    img#phone{
+        display: none;
+        margin: auto;
+    }
+    img#tablet{
+        margin: auto;
+        display: none;
+    }
+    img#print{
+        margin: auto;
+        display: block;
+    }
+    img#pc{
+        margin: auto;
+        display: none;
+    }
+    img#tv{
+        margin: auto;
+        display: none;
+    }
+}
